@@ -1,0 +1,13 @@
+[package]
+name = "mmap-gpio"
+version = "0.1.0"
+authors = ["Keji Li <mail@keji.li>"]
+edition = "2018"
+
+[dependencies]
+mmap = "0.1.1"
+libc = "0.2"
+
+[[bin]]
+name = "gpio-test"
+path = "test/test.rs"
